@@ -1,0 +1,183 @@
+.sell {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black);
+    color: var(--white);
+
+    .se {
+        width: 95%;
+        max-width: 1400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .login {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 60%;
+            gap: 1rem;
+
+            .box {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 1rem;
+                width: 100%;
+
+                input {
+                    width: 30%;
+                    height: 2rem;
+                    background-color: transparent;
+                    border: 1px solid var(--main);
+                    cursor: pointer;
+                    color: var(--white);
+                }
+            }
+
+            .bttn {
+                width: 15%;
+                height: 2rem;
+                color: var(--white);
+                background-color: transparent;
+                border: 1px solid var(--main);
+                cursor: pointer;
+            }
+
+            input {
+                width: 20%;
+                background-color: transparent;
+                border: 2px solid var(--main);
+                color: var(--white);
+                height: 2rem;
+                text-align: center;
+                cursor: pointer;
+            }
+
+        }
+
+        p.bt {
+            border-bottom: 2px solid var(--main);
+            cursor: pointer;
+            width: max-content;
+            text-align: end;
+            align-self: flex-end;
+        }
+    }
+
+    .signUp {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .rol {
+            width: 45%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+
+            .box {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-end;
+                border-bottom: 1px solid var(--main);
+                border-right: 1px solid var(--main);
+                gap: .6rem;
+
+                h3 {
+                    color: var(--main);
+                }
+
+            }
+        }
+
+        .form {
+            height: 100%;
+            width: 45%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            form {
+                width: 100%;
+                height: 70%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 1.5rem;
+
+                .box {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 1rem;
+                    width: 100%;
+
+                    input {
+                        width: 40%;
+                        height: 2rem;
+                        background-color: transparent;
+                        border: 1px solid var(--main);
+                        cursor: pointer;
+                        color: var(--white);
+                    }
+                }
+
+                .bttn {
+                    width: 30%;
+                    height: 2rem;
+                    color: var(--white);
+                    background-color: transparent;
+                    border: 1px solid var(--main);
+                    cursor: pointer;
+                }
+
+                input {
+                    width: 35%;
+                    background-color: transparent;
+                    border: 2px solid var(--main);
+                    color: var(--white);
+                    height: 2rem;
+                    text-align: center;
+                    cursor: pointer;
+                }
+            }
+
+        }
+
+        p.bt {
+            border-bottom: 2px solid var(--main);
+            cursor: pointer;
+            width: max-content;
+            text-align: end;
+            align-self: flex-end;
+        }
+    }
+}
