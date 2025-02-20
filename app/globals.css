@@ -1,17 +1,16 @@
 :root {
-    --black: #0a0a0a;
-    --white: #ededed;
-    --main:#e78a33;
+  --black: #0a0a0a;
+  --white: #ededed;
+  --main: #e78a33;
 }
 
-
-html{
+html {
   font-size: 16px;
 }
 html,
 body {
   max-width: 100vw;
-  overflow-x: hidden
+  overflow-x: hidden;
 }
 
 body {
@@ -34,17 +33,74 @@ a {
   text-decoration: none;
 }
 
-h1{
-  font-size: 2rem;}
-h2{
-
+h1 {
+  font-size: 2rem;
+}
+h2 {
   font-size: 1.5rem;
-}p{
+}
+p {
   font-size: 1rem;
 }
-.cont{
+.cont {
   width: 95%;
   max-width: 1400px;
   margin: 0 auto;
   height: 100vh;
+}
+
+/* Mobile */
+@media (max-width: 400px) {
+  html {
+    font-size: 9px;
+  }
+  .sell .se .signUp .form form {
+    input {
+      width: 100%;
+    }
+    .box {
+      input {
+        width: 100%;
+      }
+    }
+  }
+}
+@media (min-width: 401px) and (max-width: 510px) {
+  html {
+    font-size: 11px;
+  }
+  .sell .se .signUp .form form {
+    input {
+      width: 100%;
+    }
+    .box {
+      input {
+        width: 100%;
+      }
+    }
+  }
+}
+@media (min-width: 511px) and (max-width: 767px) {
+  html {
+    font-size: 11px;
+  }
+}
+
+/* Small Screens */
+@media (min-width: 768px) and (max-width: 991px) {
+  html {
+    font-size: 15px;
+  }
+}
+/* Medium Screens */
+@media (min-width: 992px) and (max-width: 1400px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1401px) and (max-width: 1600px) {
+  html {
+    font-size: 16px;
+  }
 }

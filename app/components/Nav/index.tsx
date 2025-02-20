@@ -47,6 +47,7 @@ const Navbar = () => {
                 <div className="contact">
                     <h3>تواصل <span>معنا</span></h3>
                     <Image className='img' src={whatssvg} alt='' />
+                    <p><span>+20 11 13244214</span></p>
                 </div>
             </div>
             <div className="arrow">

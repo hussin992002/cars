@@ -5,6 +5,8 @@ import car2 from '@/app/imgs/car2.jpeg'
 import car3 from '@/app/imgs/car3.jpeg'
 import car4 from '@/app/imgs/car4.jpeg'
 import car5 from '@/app/imgs/car5.jpeg'
+import car6 from '@/app/imgs/m1.jpeg'
+import car7 from '@/app/imgs/m2.jpeg'
 
 const Estegar = () => {
     return (
@@ -47,7 +49,7 @@ const Estegar = () => {
                             سعة المحرك   5.6 لتر
                         </h2>
                         <h2>
-                            قاعدة عجلات 3065 
+                            قاعدة عجلات 3065
                         </h2>
                     </div>
                 </div>
@@ -156,6 +158,42 @@ const Estegar = () => {
                         </h2>
                     </div>
 
+                </div>
+                <div className="box">
+                    <div className="img">
+                        <Image src={car6} alt='' width={250} height={250} />
+                    </div>
+                    <div className="text">
+
+                        <h1>
+                            سياره لذوي الاحتياجات الخاصه
+                        </h1>
+                        <h2>
+                            تم تصميم سيارات ذوي الإحتياجات الخاصة بشكل خاص لتزويد ذوي الإحتياجات الخاصة بالراحة لدرجة كبيرة.
+                            لأسعار الإيجار ولحجز السيارة
+                        </h2>
+                    </div>
+
+                </div>
+                <div className="box">
+                    <div className="img">
+                        <Image src={car7} alt='' width={250} height={250} />
+                    </div>
+                    <div className="text">
+
+                        <h1>
+                            سياره لذوي الاحتياجات الخاصه
+                        </h1>
+                        <h2>
+                            تم تصميم سيارات ذوي الإحتياجات الخاصة بشكل خاص لتزويد ذوي الإحتياجات الخاصة بالراحة لدرجة كبيرة.
+                            لأسعار الإيجار ولحجز السيارة
+                        </h2>
+                    </div>
+
+                </div>
+                <div className="box not">
+                    <h2>للطلبات توواصل واتس اب </h2>
+                    <span>+20 11 13244214</span>
                 </div>
             </div>
         </div>

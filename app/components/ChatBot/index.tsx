@@ -3,6 +3,7 @@ import './index.scss';
 
 const ChatBot = () => {
     const [q, setq] = useState('')
+    const [m, setm] = useState('m')
     function whatq() {
         if (q === '') {
             return (
@@ -178,13 +179,27 @@ const ChatBot = () => {
             </div>
         )
     }
+    function min() {
+        if (m === 'm') {
+            return (
+                <div className="mine">
+                    <p onClick={() => {
+                        setm('c')
+                    }}>Want Question?</p>
+                </div>
+            )
+        } if (m === 'c') {
+            <div className="chat">
+                {NewQ()}
+                <p className='bt' onClick={() => {
+                    setq('')
+                }}>New Question ?</p>
+            </div>
+        }
+    }
     return (
-        <div className="chat hide">
-            {NewQ()}
-            <p className='bt' onClick={() => {
-                setq('')
-            }}>New Question ?</p>
-        </div>
+        min()
+
     )
 }
 export default ChatBot;
