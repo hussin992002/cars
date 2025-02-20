@@ -189,12 +189,17 @@ const ChatBot = () => {
                 </div>
             )
         } if (m === 'c') {
-            <div className="chat">
-                {NewQ()}
-                <p className='bt' onClick={() => {
-                    setq('')
-                }}>New Question ?</p>
-            </div>
+            return (
+                <div className="chat">
+                    {NewQ()}
+                    <p className='bt' onClick={() => {
+                        setq('')
+                    }}>New Question ?</p>
+                    <p className='bt' onClick={() => {
+                        setm('m')
+                    }}>Close?</p>
+                </div>
+            )
         }
     }
     return (
