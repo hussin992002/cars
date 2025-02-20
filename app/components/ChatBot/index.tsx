@@ -179,7 +179,7 @@ const ChatBot = () => {
         )
     }
     return (
-        <div className="chat">
+        <div className="chat hide">
             {NewQ()}
             <p className='bt' onClick={() => {
                 setq('')
